@@ -1,31 +1,80 @@
-header {
-  font-family: PT Sans;
-  font-weight: bold;
-  font-size: 1.5rem;
+html {
+  font-family: "PT Serif";
+  background-color: #c9b5ab;
+  line-height: 1.5;
+  font-size: .8rem;
 }
 
-ol {
+header {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #3f1622;
+}
+
+title {
+  font-size: 1rem;
+}
+
+nav ol {
   list-style-type: none;
 }
 
-li a {
+a {
   text-decoration: none;
   color: #8f2440;
   font-weight: bold;
 }
 
-body {
-  font-family: PT serif;
-  background-color: #c9b5ab;
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 figcaption {
   text-align: center;
+}
+
+main {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+article {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+.common {
+  list-style: lower-greek;
+  font-size: .8rem;
+}
+
+p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "PT sans";
 }
